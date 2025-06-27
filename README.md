@@ -19,6 +19,8 @@ Webforms App With Blazor using YARP as a reverse proxy with shared Forms Authent
 
 Authentication is shared via a shared cookie in the temp folder defined in the key SharedKeyFileLocation. This folder is accessed via both apps and must be the same in appsettings.json and Web.config. It is crucial that the information in both configs is the same.
 
+You can change the connection string to any MSSQL database running with FormsAuthentication set up on it. If you do not have one you can create one using the tool `aspnet_regsql.exe`
+
 `Web.config`
 
 ```
