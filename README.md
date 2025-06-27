@@ -89,6 +89,6 @@ For example:
 
 This defines a new page called weather that is hosted on the path `/weather`. The `ClusterId` relates to the previously defined `Clusters`. This has to match the name of our cluster, in this case it is blazor.
 
-## Control flow
+---
 
 [Credit to this repository + More information](https://github.com/JDGoldman/WebFormsWithBlazor)
